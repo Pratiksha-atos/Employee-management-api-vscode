@@ -16,6 +16,7 @@ public class Employee {
     private String email;
     private String department;
     private String position;
+    private int departmentId;
 
     // Getters and Setters
     public int getId() {
@@ -57,4 +58,13 @@ public class Employee {
     public void setPosition(String position) {
         this.position = position;
     }
+
+    public int getDepartmentId() { 
+        return departmentId; 
+    }
+    public void setDepartmentId(int departmentId) {
+         this.departmentId = departmentId; 
+        }
+
 }
+
